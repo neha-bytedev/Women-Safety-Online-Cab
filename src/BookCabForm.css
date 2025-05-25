@@ -1,0 +1,126 @@
+/* Centering the BookNow Container */
+.booknow-container {
+    width: 550px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  
+    /* Centering */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  /* Trip Type Tabs */
+  .trip-tabs {
+    display: flex;
+    background: #673ab7;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+  }
+  
+  .trip-tabs button {
+    flex: 1;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .trip-tabs button.active {
+    background: white;
+    color: #673ab7;
+    font-weight: bold;
+  }
+  
+  /* Booking Form */
+  .booking-form {
+    padding: 15px;
+  }
+  
+  .booking-form label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .booking-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add Stop */
+  .add-stop {
+    font-size: 14px;
+    color: #ff9800;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .add-stop .info {
+    background: #ddd;
+    border-radius: 50%;
+    padding: 2px 6px;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  
+  /* Date & Time Section */
+  .datetime-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .datetime-section div {
+    width: 48%;
+  }
+  
+  /* Country Code Selection */
+  .country-code {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .country-code img {
+    width: 24px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  
+  .country-code select {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Check Rates Button */
+  .check-rates {
+    width: 100%;
+    background: #ff9800;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .check-rates:hover {
+    background: #e68900;
+  }
+  
